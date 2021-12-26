@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Numbers Generator</title>
+</head>
+<body>
+    <header>
+        <h1>Numbers Generator</h1>
+        <p>Língua <a href="index.html">PT-BR</a> / <a href="englishPage.html">EN-US</a> Language</p>
+    </header>
+
+    <section>
+        <div>
+            <p>Welcome to my numbers generator. You can use it for: Generating numbers. Who would have guessed?</p>
+            <p>Good luck using this generator to win the lottery or something. In case you want to send me 1% of the prize as thanks, please contact me through GitHub.</p>
+            <p>How many numbers:
+            <input type="number" name="inNum" id="inNum">
+            <p>Max possible number:
+            <input type="number" name="maxNum" id="maxNum">
+            <input type="button" value="Generate" onclick="gerarNumeros()">
+            (ex: "10" will generate numbers from 1 to 10)
+            </p>
+        </div>
+        <div id="res">
+            <p>The results will appear here</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <a href="https://github.com/SnowySnoww" target="_blank">Felipe Neves</a></p>
+    </footer>
+
+    <script src="lottoEnglish.js"></script>
+</body>
+</html>

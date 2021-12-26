@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gerador de Números</title>
+</head>
+<body>
+    <header>
+        <h1>Gerador de Números</h1>
+        <p>Língua <a href="index.html">PT-BR</a> / <a href="englishPage.html">EN-US</a> Language</p>
+    </header>
+
+    <section>
+        <div>
+            <p>Bem-Vindo(a) ao meu gerador de números. Você pode utilizá-lo para: Gerar números. Quem diria?</p>
+            <p>Boa sorte utilizando este gerador para ganhar na loteria ou coisas do tipo. Caso queira me enviar 1% do prêmio como agradecimento, favor entrar em contato pelo GitHub.</p>
+            <p>Quantos números deseja gerar:
+            <input type="number" name="inNum" id="inNum">
+            <p>Número máximo desejado:
+            <input type="number" name="maxNum" id="maxNum">
+            <input type="button" value="Gerar" onclick="gerarNumeros()">
+            (ex: "10" gerará números de 1 até 10)
+            </p>
+        </div>
+        <div id="res">
+            <p>Os resultados aparecerão aqui</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <a href="https://github.com/SnowySnoww" target="_blank">Felipe Neves</a></p>
+    </footer>
+
+    <script src="lotto.js"></script>
+</body>
+</html>
